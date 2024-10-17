@@ -32,3 +32,10 @@ function changeEmojiColor(elem){
     const b = randInt(0,255);
     elem.style.fill='rgb('+r+',' +g+','+b+')';
 }
+
+function changeWhite(elem){
+    const r = (255);
+    const g = (255);
+    const b = (255);
+    elem.style.fill='rgb('+r+',' +g+','+b+')';
+}
